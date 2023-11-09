@@ -51,14 +51,14 @@
 - **Git** предоставляет больше контроля и гибкости в управлении версиями файлов.
 
 
-'''mermaid
-  flowchart TD
+```mermaid
+  flowchart TD;
     A[Untracked] -- git add --> B{staged + tracked};
     B -- git commit --> C[tracked];
     B -- Changes --> D[Modified];
     C -- Changes --> D[Modified];
     D -- Changes --> B{staged + tracked};
-'''
+```
 ---
 
 
